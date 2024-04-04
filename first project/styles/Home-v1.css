@@ -15,6 +15,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  margin: 0px 0px;
 }
 
 footer {
@@ -79,6 +80,14 @@ p {
   height: 132px;
 }
 
+.main-searching-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 26px;
+  left: 28px;
+}
+
 .main-title {
   width: 65px;
   height: 30px;
@@ -88,6 +97,18 @@ p {
   font-size: 24px;
   font-weight: 400;
   line-height: normal;
+}
+
+.shopping-cart-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.user-profile-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
 }
 
 .main-title::after {
@@ -594,6 +615,7 @@ footer {
 }
 
 .credits {
+  margin-bottom: 0px;
   position: relative;
   width: 164px;
   height: 19px;
@@ -603,7 +625,13 @@ footer {
 }
 
 .links-footer {
-  padding: 184px 83px 22px 1093px;
+  /* padding: 184px 83px 22px 1093px; */
+  width: 264px;
+  position: relative;
+  /* top: 184px; */
+  right: 83px;
+  bottom: 35px;
+  left: 1093px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
